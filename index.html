@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-        <nav class="flex justify-between p-10">
+        <nav class="flex xl:justify-between p-10">
             <img src="./Logo (6).png" alt="">
-            <ul class="flex gap-10">
+            <ul class="hidden  xl:flex gap-10">
                 <li class="border-r-2 pr-10">ВРЕМЯ РАБОТЫ <br>
                 Пн-Вс 9:00-21:00</li>
                 <li class="border-r-2 pr-10">EMAIL<br>
@@ -23,38 +23,85 @@
         </nav>
         <section class="flex justify-between items-center p-10">
             <aside class="flex flex-col gap-10">
-                <h1 class="text-6xl">Поможем<br>
+                <h1 class="text-4xl xl:text-6xl">Поможем<br>
                 навести порядок<br>
                 в компании</h1>
-                <p class="text-4xl">Внедрение CRM за 2 недели.<br>
+                <p class="xs:text-2xl xl:text-4xl">Внедрение CRM за 2 недели.<br>
                 Работаем по всей России.</p>
-                <div class="flex flex-col gap-10 text-center w-[688px]">
-                    <div class="flex gap-10">
-                        <input type="text" placeholder="Название компании" class="w-[332px] h-[41px] border-2 p-5">
-                        <input type="text" placeholder="Телефон*" class="w-[332px] h-[41px] border-2 p-5">
+                <div class="flex flex-col gap-10 text-center xl:w-[688px] w-[350px]">
+                    <div class="gap-5 flex flex-col xl:flex-row xl:gap-10 ">
+                        <input type="text" placeholder="Название компании" class="w-[200px] xl:w-[332px] h-[41px] border-2 p-5">
+                        <input type="text" placeholder="Телефон*" class="w-[200px] xl:w-[332px] h-[41px] border-2 p-5">
                     </div>
-                    <button class="w-[688px] h-[41px] bg-[#3D68E1] text-white">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
-                    <p>Мы никогда не передаём Ваши данные третьим лицам</p>
+                    <button class="w-[300px] xl:w-[688px] h-[41px] bg-[#3D68E1] text-white">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
+                    <p class="w-[100px] text-center">Мы никогда не передаём Ваши данные третьим лицам</p>
                 </div>
             </aside>
-            <img src="./image 15 (2).png" alt="">
+            <img src="./image 15 (2).png" class="hidden xl:block">
         </section>
     </header>
     <main>
         <section class="bg-[#F5F7F8]">
-            <h1 class="text-6xl text-center">
+            <h1 class="xs:text-3xl
+             xl:text-6xl text-center">
                 Внедрение CRM позволит Вашей компании  <span class="bg-[#99B5EB] rounded-[20px] w-[123px] text-center">связываться</span>   с клиентом вовремя,<br>
                 <span class="bg-[#99C2A5] rounded-[20px] w-[123px] text-center">сохранять</span>  всю информацию о заказах,<br>    
                 <span class="bg-[#F9E78A] rounded-[20px] w-[123px] text-center">анализировать</span>  показатели продаж.
             </h1>
         </section>
-        <section class="bg-[#99B5EB] flex flex-col gap-10 justify-center items-center mt-[100px]">
+        <section class="bg-[#99B5EB] flex flex-col gap-10 justify-center items-center mt-[100px] h-[130vh]">
             <aside class="text-center flex flex-col gap-10">
-                <h1 class="text-8xl">Объединение всех каналов<br> связи в одной системе</h1>
+                <h1 class="text-4xl xl:text-8xl">Объединение всех каналов<br> связи в одной системе</h1>
                 <p class="text-2xl">Подключите мессенджеры, соцсети, Авито, сайты, чаты,<br> и общайтесь с клиентами в режиме одного окна.</p>
             </aside>
             <img src="./CRM+sources.svg" alt="">
         </section>
+         <section class="bg-[#99C2A5] flex flex-col gap-10 justify-center items-center h-[130vh]">
+            <aside class="text-center flex flex-col gap-10">
+                <h1 class="text-4xl xl:text-8xl">Сотрудник уходит,<br>
+                данные остаются</h1>
+                <p class="text-2xl">Вся информация о клиенте и его заказах сохраняется в <br>CRM</p>
+            </aside>
+            <img src="./Image (101).png" class="w-[328px] xl:w-[836px]">
+         </section>
+                 <section class="bg-[#F9E78A] flex flex-col gap-10 justify-center items-center h-[130vh]">
+            <aside class="text-center flex flex-col gap-10">
+                <h1 class="text-4xl xl:text-8xl">Принимайте решения на <br>основе данных</h1>
+                <p class="text-2xl">Отчёты по продажам, по менеджерам, по клиентам.</p>
+            </aside>
+            <img src="./Image.png" class="w-[328px] xl:w-[836px]">
+         </section>
+         <section class="flex flex-col gap-10 justify-center items-center">
+            <aside class="flex flex-col justify-center items-center text-center gap-10">
+                <h1 class="text-6xl font-bold">Отзывы</h1>
+                <p class="text-4xl">Более 15 000 000 компаний по всему миру <br>уже используют CRM-системы.</p>
+            </aside>
+            <img src="./Feedbabks.png" alt="">
+         </section>
+         <section class="flex flex-col justify-center items-center gap-10 mt-[100px] bg-[#F5F7F8]">
+            <h1 class="text-4xl xl:text-8xl">Частые вопросы</h1>
+            <div>
+                <h1 class="border-b-2 pb-10 w-[300px] xl:w-[848px] text-2xl xl:text-4xl pt-10">Сколько это стоит?</h1>
+                <h1 class="border-b-2 pb-10 w-[300px] xl:w-[848px] text-2xl xl:text-4xl pt-10">Можно ли подключить 1С?</h1>
+                <h1 class="border-b-2 pb-10 w-[300px] xl:w-[848px] text-2xl xl:text-4xl pt-10">А если сотрудники начнут сопротивляться новой<br> системе?</h1>
+                <h1 class="border-b-2 pb-10 w-[300px] xl:w-[848px] text-2xl xl:text-4xl pt-10">Какая CRM лучше?</h1>
+                <h1 class="border-b-2 pb-10 w-[300px] xl:w-[848px] text-2xl xl:text-4xl pt-10">Смогут ли менеджеры скачать базу?</h1>
+            </div>
+         </section>
     </main>
+    <footer class="flex flex-col xl:justify-center xl:items-center mt-[100px] gap-10 text-center">
+        <h1 class="text-4xl xl:text-8xl">Заказать настройку CRM</h1>
+        <p class="text-2xl xl:text-4xl">Оставьте заявку,<br>
+        и мы перезвоним Вам в течение 10 минут.</p>
+         <div class="flex flex-col gap-10 text-center xl:w-[688px]  items-center w-[350px]">
+                    <div class="flex gap-10 flex-col xl:flex-row">
+                        <input type="text" placeholder="Название компании" class="w-[150px] xl:w-[332px] h-[41px] border-2 p-5">
+                        <input type="text" placeholder="Телефон*" class="w-[150px] xl:w-[332px] h-[41px] border-2 p-5">
+                    </div>
+                    <button class="w-[200px] xl:w-[688px] h-[41px] bg-[#3D68E1] text-white ">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
+                    <p class="w-[100px]">Мы никогда не передаём Ваши данные третьим лицам</p>
+                </div>
+              <h1>© 2015-2024 ООО “ИТ-Комфорт” ИНН: 5906133680 ОГРН: 1155958105962</h1>
+      </footer>
 </body>
 </html>
